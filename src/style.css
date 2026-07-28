@@ -1,0 +1,79 @@
+:root {
+  --primary-color: #708871;
+  --second-color: #fef3e2;
+}
+
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+
+.navi-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.navi-links a {
+  margin: 20px;
+  padding: 20px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.primary-link {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  background-color: var(--primary-color);
+  color: var(--second-color);
+  padding: 20px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.secondary-link {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 20px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
+
+/* About Page */
+.homepage {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+}
+
+.about-paragraph {
+  margin: 30px 0;
+}
+
+.about-paragraph p {
+  margin: 10px;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 25px;
+}
