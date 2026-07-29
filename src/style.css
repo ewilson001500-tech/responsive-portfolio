@@ -7,6 +7,7 @@
 
 body {
   font-family: var(--body-font-family);
+  padding-bottom: 120px;
 }
 
 h1,
