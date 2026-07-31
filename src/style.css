@@ -7,7 +7,7 @@
 
 body {
   font-family: var(--body-font-family);
-  padding-bottom: 120px;
+  padding: 100px 0;
 }
 
 h1,
@@ -114,6 +114,7 @@ nav li {
   padding: 15px 20px;
   text-decoration: none;
   border-radius: 5px;
+  transition: all 150ms ease-in-out;
 }
 
 .primary-link:hover {
@@ -122,7 +123,6 @@ nav li {
   border: 1px solid var(--primary-color);
   text-decoration: underline;
   font-weight: bold;
-  transition: all 200ms ease-in-out;
 }
 
 .project-desciption {
@@ -131,11 +131,40 @@ nav li {
 
 .phone-number {
   color: var(--primary-color);
+  text-decoration: underline;
+}
+
+footer {
+  padding-top: 75px;
+}
+
+footer .links a {
+  margin: 0 20px;
+  font-size: 25px;
+  text-decoration: none;
+  color: var(--primary-color);
+  background-color: #84a08513;
+  padding: 5px 8px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .links a:hover {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+footer h4 {
+  font-size: 18px;
 }
 
 /* media changes*/
 
 @media (max-width: 568px) {
+  body {
+    padding: 50px 0;
+  }
+
   h1 {
     font-size: 60px;
     line-height: 1.5;
@@ -152,10 +181,9 @@ nav li {
 
   .nav-section {
     padding: 25px 15px;
-    
   }
 
-  nav ul{
+  nav ul {
     padding: 0;
   }
 
