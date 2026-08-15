@@ -125,6 +125,10 @@ nav li {
   font-weight: bold;
 }
 
+ .img-border {
+  border: 1px solid #b3b3b3;
+}
+
 .project-desciption {
   padding: 40px 60px;
 }
@@ -136,31 +140,59 @@ nav li {
 
 .skill-section-title {
   text-align: center;
+  font-family: var(--heading-font-family);
   font-weight: 800;
   font-size: 32px;
   margin-top: 40px;
-  font-family: var(--heading-font-family);
+  padding-top: 40px;
 }
 
-.skill-section{
-  background-color: #E5EBE5;
+.skill-section {
+  background-color: #e5ebe5;
   padding: 22px 15px;
-  border-radius: 16px;
+  border-radius: 15px;
   margin: 20px auto;
-  max-width: 800px;
+  width: 800px;
   height: 250px;
 }
 
-.skill-section .row{
+.skill-section .row {
   width: 730px;
   margin: 0 auto;
-  padding:5px 0;
+  padding: 5px 0;
 }
 
 .skill-section img {
   height: 90px;
   display: block;
   margin: 0 auto;
+}
+
+.certificate {
+  margin-top: 55px;
+  padding-top: 75px;
+}
+
+.certificate h3 {
+  text-align: center;
+  font-family: var(--heading-font-family);
+  font-weight: 800;
+  font-size: 32px;
+  margin: 0;
+}
+
+.carousel {
+  width: 894px;
+  margin: 0 auto;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+  filter: invert(60%);
+}
+
+.carousel-item img {
+  padding: 0 12px;
 }
 
 footer {
@@ -194,7 +226,7 @@ footer p a {
 
 /* media changes*/
 
-@media (max-width: 568px) {
+@media (max-width: 900px) {
   body {
     padding: 50px 0;
   }
@@ -231,7 +263,7 @@ footer p a {
   }
 
   .content-section {
-    padding: 80px 10px;
+    padding: 33px 10px;
   }
 
   .content h1 {
@@ -256,20 +288,35 @@ footer p a {
     text-align: center;
   }
 
-  .skill-section-title{
-    margin-top: 0;
+  .skill-section-title {
+    margin-top: 15px;
+    padding: 0;
   }
 
-  .skill-section{
+  .skill-section {
     height: auto;
     margin: 0 auto;
+    width: auto;
   }
 
-  .skill-section .row{
+  .skill-section .row {
     width: 300px;
   }
 
-  .skill-section img{
+  .skill-section img {
     height: inherit;
+  }
+
+  .certificate {
+    padding: 0;
+    margin-top: 35px;
+  }
+
+  .carousel {
+    width: 400px;
+  }
+
+  .carousel-item img {
+    padding: 0;
   }
 }
