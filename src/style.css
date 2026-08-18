@@ -107,6 +107,10 @@ nav li {
   margin-top: 38px;
 }
 
+.navi-link a{
+ margin-right: 15px;
+}
+
 .primary-link {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   background-color: var(--primary-color);
@@ -262,6 +266,8 @@ footer p a {
     font-size: 14px;
   }
 
+  .navi-link
+
   .content-section {
     padding: 33px 10px;
   }
@@ -288,6 +294,7 @@ footer p a {
     text-align: center;
   }
 
+
   .skill-section-title {
     margin-top: 15px;
     padding: 0;
@@ -300,7 +307,7 @@ footer p a {
   }
 
   .skill-section .row {
-    width: 300px;
+    width: inherit;
   }
 
   .skill-section img {
@@ -313,7 +320,7 @@ footer p a {
   }
 
   .carousel {
-    width: 400px;
+    width: inherit;
   }
 
   .carousel-item img {
